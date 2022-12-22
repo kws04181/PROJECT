@@ -128,7 +128,7 @@ section {
     left: -400px;
     opacity: 0;
   }
-  top {
+  to {
     left: 0;
     opacity: 1;
   }
@@ -197,7 +197,7 @@ section {
   padding-left: 10px;
 }
 
-.con-1-img {
+.con-1-img img {
   position: absolute;
   top: 62px;
   right: 0;
@@ -211,7 +211,7 @@ section {
     right: -400px;
     opacity: 0;
   }
-  top {
+  to {
     right: 0;
     opacity: 1;
   }
