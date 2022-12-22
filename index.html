@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- 리셋 CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <!-- 구글 머티리얼 아이콘 -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -15,6 +16,10 @@
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <!-- CSS파일  -->
   <link rel="stylesheet" href="/css/main.css">
+
+  <script defer src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 </head>
 <body>
 
@@ -135,58 +140,182 @@
         <!-- Slides -->
         <div class="swiper-slide page page-1">
           <div class="page-1-left">
-            
+            <div class="page-1-icons">
+              <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5 31.875C42.5 26.007 47.257 21.25 53.125 21.25H116.875C122.743 21.25 127.5 26.007 127.5 31.875V63.75C127.5 69.618 122.743 74.375 116.875 74.375H53.125C47.257 74.375 42.5 69.618 42.5 63.75V31.875ZM53.125 31.875V63.75H116.875V31.875H53.125Z" fill="#EEEFF1"/>
+                <path d="M85 127.5C90.868 127.5 95.625 122.743 95.625 116.875C95.625 111.007 90.868 106.25 85 106.25C79.132 106.25 74.375 111.007 74.375 116.875C74.375 122.743 79.132 127.5 85 127.5Z" fill="#EEEFF1"/>
+                <path d="M116.875 116.875C116.875 134.479 102.604 148.75 85 148.75C67.3959 148.75 53.125 134.479 53.125 116.875C53.125 99.2709 67.3959 85 85 85C102.604 85 116.875 99.2709 116.875 116.875ZM85 138.125C96.7361 138.125 106.25 128.611 106.25 116.875C106.25 105.139 96.7361 95.625 85 95.625C73.264 95.625 63.75 105.139 63.75 116.875C63.75 128.611 73.264 138.125 85 138.125Z" fill="#EEEFF1"/>
+                <path d="M21.25 21.25C21.25 9.51395 30.7639 0 42.5 0H127.5C139.236 0 148.75 9.51395 148.75 21.25V148.75C148.75 160.486 139.236 170 127.5 170H42.5C30.764 170 21.25 160.486 21.25 148.75V21.25ZM42.5 10.625C36.632 10.625 31.875 15.382 31.875 21.25V148.75C31.875 154.618 36.632 159.375 42.5 159.375H127.5C133.368 159.375 138.125 154.618 138.125 148.75V21.25C138.125 15.382 133.368 10.625 127.5 10.625H42.5Z" fill="#EEEFF1"/>
+              </svg>
+            </div>
+            <div class="page-1-text">
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Eveniet
+              </h2>
+              <h1 class="page-main-text">
+                MUSIC - PLAYER
+              </h1>
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit a
+              </h2>
+            </div> 
           </div>
           <div class="page-1-right">
-
+            <div class="page-1-icons">
+              <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5 31.875C42.5 26.007 47.257 21.25 53.125 21.25H116.875C122.743 21.25 127.5 26.007 127.5 31.875V63.75C127.5 69.618 122.743 74.375 116.875 74.375H53.125C47.257 74.375 42.5 69.618 42.5 63.75V31.875ZM53.125 31.875V63.75H116.875V31.875H53.125Z" fill="#EEEFF1"/>
+                <path d="M85 127.5C90.868 127.5 95.625 122.743 95.625 116.875C95.625 111.007 90.868 106.25 85 106.25C79.132 106.25 74.375 111.007 74.375 116.875C74.375 122.743 79.132 127.5 85 127.5Z" fill="#EEEFF1"/>
+                <path d="M116.875 116.875C116.875 134.479 102.604 148.75 85 148.75C67.3959 148.75 53.125 134.479 53.125 116.875C53.125 99.2709 67.3959 85 85 85C102.604 85 116.875 99.2709 116.875 116.875ZM85 138.125C96.7361 138.125 106.25 128.611 106.25 116.875C106.25 105.139 96.7361 95.625 85 95.625C73.264 95.625 63.75 105.139 63.75 116.875C63.75 128.611 73.264 138.125 85 138.125Z" fill="#EEEFF1"/>
+                <path d="M21.25 21.25C21.25 9.51395 30.7639 0 42.5 0H127.5C139.236 0 148.75 9.51395 148.75 21.25V148.75C148.75 160.486 139.236 170 127.5 170H42.5C30.764 170 21.25 160.486 21.25 148.75V21.25ZM42.5 10.625C36.632 10.625 31.875 15.382 31.875 21.25V148.75C31.875 154.618 36.632 159.375 42.5 159.375H127.5C133.368 159.375 138.125 154.618 138.125 148.75V21.25C138.125 15.382 133.368 10.625 127.5 10.625H42.5Z" fill="#EEEFF1"/>
+              </svg>
+            </div>
           </div>
         </div>
         <div class="swiper-slide page page-2">
           <div class="page-1-right">
-
+            <div class="page-1-icons">
+              <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5 31.875C42.5 26.007 47.257 21.25 53.125 21.25H116.875C122.743 21.25 127.5 26.007 127.5 31.875V63.75C127.5 69.618 122.743 74.375 116.875 74.375H53.125C47.257 74.375 42.5 69.618 42.5 63.75V31.875ZM53.125 31.875V63.75H116.875V31.875H53.125Z" fill="#EEEFF1"/>
+                <path d="M85 127.5C90.868 127.5 95.625 122.743 95.625 116.875C95.625 111.007 90.868 106.25 85 106.25C79.132 106.25 74.375 111.007 74.375 116.875C74.375 122.743 79.132 127.5 85 127.5Z" fill="#EEEFF1"/>
+                <path d="M116.875 116.875C116.875 134.479 102.604 148.75 85 148.75C67.3959 148.75 53.125 134.479 53.125 116.875C53.125 99.2709 67.3959 85 85 85C102.604 85 116.875 99.2709 116.875 116.875ZM85 138.125C96.7361 138.125 106.25 128.611 106.25 116.875C106.25 105.139 96.7361 95.625 85 95.625C73.264 95.625 63.75 105.139 63.75 116.875C63.75 128.611 73.264 138.125 85 138.125Z" fill="#EEEFF1"/>
+                <path d="M21.25 21.25C21.25 9.51395 30.7639 0 42.5 0H127.5C139.236 0 148.75 9.51395 148.75 21.25V148.75C148.75 160.486 139.236 170 127.5 170H42.5C30.764 170 21.25 160.486 21.25 148.75V21.25ZM42.5 10.625C36.632 10.625 31.875 15.382 31.875 21.25V148.75C31.875 154.618 36.632 159.375 42.5 159.375H127.5C133.368 159.375 138.125 154.618 138.125 148.75V21.25C138.125 15.382 133.368 10.625 127.5 10.625H42.5Z" fill="#EEEFF1"/>
+              </svg>
+            </div>
           </div>
           <div class="page-1-left">
-            
+            <div class="page-1-icons">
+              <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5 31.875C42.5 26.007 47.257 21.25 53.125 21.25H116.875C122.743 21.25 127.5 26.007 127.5 31.875V63.75C127.5 69.618 122.743 74.375 116.875 74.375H53.125C47.257 74.375 42.5 69.618 42.5 63.75V31.875ZM53.125 31.875V63.75H116.875V31.875H53.125Z" fill="#EEEFF1"/>
+                <path d="M85 127.5C90.868 127.5 95.625 122.743 95.625 116.875C95.625 111.007 90.868 106.25 85 106.25C79.132 106.25 74.375 111.007 74.375 116.875C74.375 122.743 79.132 127.5 85 127.5Z" fill="#EEEFF1"/>
+                <path d="M116.875 116.875C116.875 134.479 102.604 148.75 85 148.75C67.3959 148.75 53.125 134.479 53.125 116.875C53.125 99.2709 67.3959 85 85 85C102.604 85 116.875 99.2709 116.875 116.875ZM85 138.125C96.7361 138.125 106.25 128.611 106.25 116.875C106.25 105.139 96.7361 95.625 85 95.625C73.264 95.625 63.75 105.139 63.75 116.875C63.75 128.611 73.264 138.125 85 138.125Z" fill="#EEEFF1"/>
+                <path d="M21.25 21.25C21.25 9.51395 30.7639 0 42.5 0H127.5C139.236 0 148.75 9.51395 148.75 21.25V148.75C148.75 160.486 139.236 170 127.5 170H42.5C30.764 170 21.25 160.486 21.25 148.75V21.25ZM42.5 10.625C36.632 10.625 31.875 15.382 31.875 21.25V148.75C31.875 154.618 36.632 159.375 42.5 159.375H127.5C133.368 159.375 138.125 154.618 138.125 148.75V21.25C138.125 15.382 133.368 10.625 127.5 10.625H42.5Z" fill="#EEEFF1"/>
+              </svg>
+            </div>
+            <div class="page-1-text">
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Eveniet
+              </h2>
+              <h1 class="page-main-text">
+                MUSIC - PLAYER
+              </h1>
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit a
+              </h2>
+            </div> 
           </div>
-        </div>
+        </div> 
         <div class="swiper-slide page page-3">
           <div class="page-1-left">
-            
+            <div class="page-1-icons">
+              <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5 31.875C42.5 26.007 47.257 21.25 53.125 21.25H116.875C122.743 21.25 127.5 26.007 127.5 31.875V63.75C127.5 69.618 122.743 74.375 116.875 74.375H53.125C47.257 74.375 42.5 69.618 42.5 63.75V31.875ZM53.125 31.875V63.75H116.875V31.875H53.125Z" fill="#EEEFF1"/>
+                <path d="M85 127.5C90.868 127.5 95.625 122.743 95.625 116.875C95.625 111.007 90.868 106.25 85 106.25C79.132 106.25 74.375 111.007 74.375 116.875C74.375 122.743 79.132 127.5 85 127.5Z" fill="#EEEFF1"/>
+                <path d="M116.875 116.875C116.875 134.479 102.604 148.75 85 148.75C67.3959 148.75 53.125 134.479 53.125 116.875C53.125 99.2709 67.3959 85 85 85C102.604 85 116.875 99.2709 116.875 116.875ZM85 138.125C96.7361 138.125 106.25 128.611 106.25 116.875C106.25 105.139 96.7361 95.625 85 95.625C73.264 95.625 63.75 105.139 63.75 116.875C63.75 128.611 73.264 138.125 85 138.125Z" fill="#EEEFF1"/>
+                <path d="M21.25 21.25C21.25 9.51395 30.7639 0 42.5 0H127.5C139.236 0 148.75 9.51395 148.75 21.25V148.75C148.75 160.486 139.236 170 127.5 170H42.5C30.764 170 21.25 160.486 21.25 148.75V21.25ZM42.5 10.625C36.632 10.625 31.875 15.382 31.875 21.25V148.75C31.875 154.618 36.632 159.375 42.5 159.375H127.5C133.368 159.375 138.125 154.618 138.125 148.75V21.25C138.125 15.382 133.368 10.625 127.5 10.625H42.5Z" fill="#EEEFF1"/>
+              </svg>
+            </div>
+            <div class="page-1-text">
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Eveniet
+              </h2>
+              <h1 class="page-main-text">
+                MUSIC - PLAYER
+              </h1>
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit a
+              </h2>
+            </div> 
           </div>
-          <div class="page-1-right">
-
+          <div class="page-1-left">
+            <div class="page-1-icons">
+              <svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5 31.875C42.5 26.007 47.257 21.25 53.125 21.25H116.875C122.743 21.25 127.5 26.007 127.5 31.875V63.75C127.5 69.618 122.743 74.375 116.875 74.375H53.125C47.257 74.375 42.5 69.618 42.5 63.75V31.875ZM53.125 31.875V63.75H116.875V31.875H53.125Z" fill="#EEEFF1"/>
+                <path d="M85 127.5C90.868 127.5 95.625 122.743 95.625 116.875C95.625 111.007 90.868 106.25 85 106.25C79.132 106.25 74.375 111.007 74.375 116.875C74.375 122.743 79.132 127.5 85 127.5Z" fill="#EEEFF1"/>
+                <path d="M116.875 116.875C116.875 134.479 102.604 148.75 85 148.75C67.3959 148.75 53.125 134.479 53.125 116.875C53.125 99.2709 67.3959 85 85 85C102.604 85 116.875 99.2709 116.875 116.875ZM85 138.125C96.7361 138.125 106.25 128.611 106.25 116.875C106.25 105.139 96.7361 95.625 85 95.625C73.264 95.625 63.75 105.139 63.75 116.875C63.75 128.611 73.264 138.125 85 138.125Z" fill="#EEEFF1"/>
+                <path d="M21.25 21.25C21.25 9.51395 30.7639 0 42.5 0H127.5C139.236 0 148.75 9.51395 148.75 21.25V148.75C148.75 160.486 139.236 170 127.5 170H42.5C30.764 170 21.25 160.486 21.25 148.75V21.25ZM42.5 10.625C36.632 10.625 31.875 15.382 31.875 21.25V148.75C31.875 154.618 36.632 159.375 42.5 159.375H127.5C133.368 159.375 138.125 154.618 138.125 148.75V21.25C138.125 15.382 133.368 10.625 127.5 10.625H42.5Z" fill="#EEEFF1"/>
+              </svg>
+            </div>
+            <div class="page-1-text">
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Eveniet
+              </h2>
+              <h1 class="page-main-text">
+                MUSIC - PLAYER
+              </h1>
+              <h2 class="page-sub-text">
+                Lorem ipsum dolor sit a
+              </h2>
+            </div> 
           </div>
-        </div>
+        </div>  
       </div>
     </div>
-
-
   </section>
   <section class="con-3">
-    <div class="inner item item-1">
-
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/iclLe7GECZ0" title="B Roll video for Upholstered Furniture Production (shot on Panasonic GH5 / S5 cameras)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section class="inner con-text">
+    <h1 class="c-title">
+      THIS IS A CALLL TO ACTION
+    </h1>
+    <div class="line"></div>
+    <h2 class="c-sub-title">
+      Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet alias, praesentium
+      adipisicing elit. Eveniet alias adipisicing elit. Eveniet alias  Eveniet alias, 
+    </h2>
+  </section>
+  <section class="inner con-4">
+    <ul class="con-4-text">
+        <li class="li-hover"><a href="#">All</a><div class="s-circle"></div></li>
+        <li class="li-hover"><a href="#">Photography</a><div class="s-circle"></div></li>
+        <li class="li-hover"><a href="#">Ui design</a><div class="s-circle"></div></li>
+        <li class="li-hover"><a href="#">Wep design</a><div class="s-circle"></div></li>
+        <li class="li-hover"><a href="#">Branding</a><div class="s-circle"></div></li>
+    </ul>
+    <div class="con-4-image-area">
+      <div class="con-4-items">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
     </div>
-    <div class="inner item item-2">
-
+  </section>
+  <div class="inner btn-5">
+    <button type="button">
+      <h2 class="btn-text">VIEW ALL WORK</h2>
+    </button>
+  </div>
+  <section class="con-5">
+    <div class="inner">
+      <img src="./img/Untitled-1.png" alt="">
+      <div class="con-5-text">
+        <h2 class="c-sub-title">Sit amet consectetur</h2>
+        <h1 class="c-title">THIS IS A CALLL TO ACTION</h1>
+        <div class="line"></div>
+        <h2 class="c-sub-title" style="font-size: 16px; line-height: 22px;">Lorem ipsum, dolor sit amet consectetur adipisicing<br>
+          elit. Laboriosam recusandae dolores assumenda,<br>
+          laudantium architecto at minus dig</h2>
+          <ul class="con-5-ul">
+            <li><span>●</span>elit. Laboriosam recusandae dolores assumenda,</li>
+            <li><span>●</span>Lorem ipsum, dolor sit amet consectetur adipisicing</li>
+            <li><span>●</span>minus dignissimos totam nulla impedit tenetur</li>
+          </ul>
+          <div class="inner btn-5">
+            <button type="button">
+              <h2 class="btn-text">VIEW ALL WORK</h2>
+            </button>
+          </div>
+      </div>
     </div>
-    <div class="inner item item-3">
+    <div class="con-5-bg">
 
     </div>
   </section>
   <!-- 푸터 영역 -->
-  <footer>
-    <div class="inner f-con">
-      <div class="f-con-left">
-        
-      </div>
-      <div class="f-con-right">
-
-      </div>
-    </div>
-  </footer>
-
-  <!-- 자바스크립트 영역 -->
-  <script defer src="./js/index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
