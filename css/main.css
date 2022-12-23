@@ -81,8 +81,18 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 620px;
+  top: 610px;
   left: 50%;
+  animation: 0.8s scroll infinite ease-out;
+}
+
+@keyframes scroll {
+  from {
+    top: 610px;
+  }
+  to {
+    top: 620px;
+  }
 }
 
 .scroll h2 {
@@ -319,7 +329,7 @@ section {
 }
 
 .con-4 {
-  height: 1287px;
+  height: 1073px;
   margin: 0 auto;
   margin-top: 107px;
   display: flex;
@@ -366,35 +376,87 @@ section {
 
 .con-4-image-area {
   width: 1200px;
-  height: 1000px;
-  background: #14213D;
+  height: 940px;
+  /* background: #475d8b; */
   flex-flow: row;
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
+  animation: image-area 2s;
+}
+
+@keyframes image-area {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .con-4-items {
   display: flex;
   gap: 20px;
-  height: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+  /* justify-content: space-between; */
 }
 
 .con-4-items .item {
-  width: 300px;
-  height: 300px;
-  background: #55A0E9;
+  width: 386px;
+  height: 386px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
 }
 
-.con-4-items .item:nth-child(5) {
-  width: 620px;
-  height: 620px;
+.con-4-items .item:hover {
+  scale: 1.2;
+  z-index: 9;
+}
+
+.item1 {
+  background-image: url(/img/img-1.jpg);
+}
+.item2 {
+  background-image: url(/img/img-2.jpg);
+}
+.item3 {
+  background-image: url(/img/img-3.jpg);
+}
+.item4 {
+  background-image: url(/img/img-4.jpg);
+}
+.item5 {
+  background-image: url(/img/img-5.jpg);
+}
+.item6 {
+  width: 386px;
+  height: 386px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: auto;
+}
+
+.item6 span {
+  font-size: 100px;
+  color: #32323B;
+  transition: 0.5s;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.item6 span:hover {
+  scale: 1.2;
+  color: #ffffff;
   background: #55A0E9;
 }
 
 .btn-5 {
-  padding-top: 120px ;
-  margin: 0 auto;
+  margin: 60px auto 0 auto;
   text-align: center;
 }
 
@@ -437,7 +499,18 @@ section {
   width: 688px;
   height: 688px;
   left: -35px;
-  animation: slide-left 1s ease-out;
+  animation: slide-left-con5 1s ease-out;
+}
+
+@keyframes slide-left-con5 {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+  to {
+    left: -35;
+    opacity: 1;
+  }
 }
 
 .con-5 .con-5-text {
@@ -447,8 +520,20 @@ section {
   z-index: 2;
   right: 152px;
   top: 224px;
-
+  animation: slide-right-con5 1s ease-out;
 }
+
+@keyframes slide-right-con5 {
+  from {
+    right: -400px;
+    opacity: 0;
+  }
+  to {
+    right: 152px;
+    opacity: 1;
+  }
+}
+
 
 .con-5-text .c-sub-title {
   text-align: left;
