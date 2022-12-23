@@ -571,12 +571,94 @@ section {
   text-align: left;
 }
 
+.bg{  
+  background: url(/img/laptop-g6bbfee09a_1920.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: static;
+  height: 325px;
+}
 
-
-
-/* footer {
+.bg-items {
   width: 100%;
-  height: 150px;
-  background: #727171;
-} */
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.bg-item {
+  width: 300px;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.bg-sub-title {
+  color: #cecece;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bg-main-title {
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bg-item span {
+  font-size: 80px;
+  color: #FCB33B;;
+}
+
+.con-6 {
+  height: 500px;
+  margin: 0 auto;
+}
+
+.con-6-area {
+  width: 100%;
+  height: 500px;
+} 
+
+.con-6-area .bg-main-title {
+  color: black;
+}
+
+.con-6-area .bg-sub-title {
+  color: #FCB33B;
+}
+
+.con-6-area .bg-sub-title:last-child {
+  color: #868686;
+  line-height: 22px;
+}
+
+.con-6-text {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.con-6-text .material-icons {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #b0b0b0;
+}
+
+
+
+
+
+
 

@@ -13,4 +13,11 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
   },
 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
 });
+
+
