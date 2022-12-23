@@ -1,3 +1,8 @@
+/* 최상단 이동 다른 방법 */
+html {
+  scroll-behavior:smooth;
+}
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
@@ -173,7 +178,7 @@ section {
   width: 180px;
   height: 42px;
   border: none;
-  background: #55A0E9;
+  background: #FCB33B;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -317,7 +322,7 @@ section {
 .line {
   width: 300px;
   height: 3px;
-  background: #55A0E9;
+  background: #FCB33B;
   margin: 0 auto;
 }
 
@@ -452,7 +457,7 @@ section {
 .item6 span:hover {
   scale: 1.2;
   color: #ffffff;
-  background: #55A0E9;
+  background: #FCB33B;
 }
 
 .btn-5 {
@@ -633,8 +638,95 @@ section {
   color: #b0b0b0;
 }
 
+.con-7 {
+  height: 800px;
+  background: #F8F8F8;
+  padding-top: 100px;
+}
 
+.con-7 .con-7-area {
+  display: flex;
+  margin: 0 auto;
+  height: 599px;
+}
 
+.con-7-text {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-flow: column;
+}
+
+.con-7-text .main-title {
+  font-size: 28px;
+  color: #32323B;
+  font-weight: bold;
+  text-align: center;
+}
+
+.con-7-text .sub-title {
+  font-size: 20px;
+  color: #868686;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #F8F8F8;
+}
+
+.input-group .top-text {
+  width: 356px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid #E2E2E2;
+  margin-bottom: 30px;
+  font-size: 22px;
+  padding-left: 15px;
+
+}
+
+.input-group .bottom-text {
+  width: 1200px;
+  height: 200px;
+  border-radius: 15px;
+  font-size: 22px;
+  padding-left: 15px;
+  border: 2px solid #E2E2E2;
+}
+
+input::placeholder {
+  font-size: 22px;
+  padding-left: 15px;
+  color: #E2E2E2;;
+}
+
+/* 스크롤 이벤트(SCROLL TO TOP) */
+#to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9;
+  width: 42px;
+  height: 42px;
+  background: #FCB33B;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#to-top span {
+  color: #fff;
+}
 
 
 

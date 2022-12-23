@@ -19,10 +19,10 @@
 
   <!-- AOS 라이브러리 불러오기-->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-
+  
   <script defer src="./js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 
 </head>
 <body>
@@ -375,7 +375,7 @@
       <div class="swiper-wrapper con-6-area">
         <!-- Slides -->
         <div class="swiper-slide con-6-text">
-          <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
+          <h1 class="bg-main-title">DAN ELLIS</h1>
           <h2 class="bg-sub-title">FINISHED PROJECTS</h2>
           <h2 class="bg-sub-title">
             <span style="color: #868686;">
@@ -389,7 +389,7 @@
           </span>
         </div>
         <div class="swiper-slide con-6-text">
-          <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
+          <h1 class="bg-main-title">DAN ELLIS</h1>
           <h2 class="bg-sub-title">FINISHED PROJECTS</h2>
           <h2 class="bg-sub-title">
             <span style="color: #868686;">
@@ -403,7 +403,7 @@
           </span>
         </div>
         <div class="swiper-slide con-6-text">
-          <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
+          <h1 class="bg-main-title">DAN ELLIS</h1>
           <h2 class="bg-sub-title">FINISHED PROJECTS</h2>
           <h2 class="bg-sub-title">
             <span style="color: #868686;">
@@ -422,22 +422,29 @@
       <div class="swiper-button-next"></div>
     </div>
   </section>
-          <!-- data-aos-* 속성을 태그에다가 써주면 알아서 동작되게 된다 -->
-        
-        <!-- 다양한 속성들이 존재한다. (설명은 후술) -->
-        <div 
-        data-aos="fade-up" 
-        data-aos-offset="200" 
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000" 
-        >
-        <!-- 내용 ... -->
-        </div>
-        
-        <!-- AOS 스크립트 시작 -->
-        <script> 
-            AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
-        </script>
+  <section class="con-7">
+    <div class="inner con-7-area">
+      <div class=con-7-text>
+        <h1 class="main-title">CONTACT US</h1>
+        <div class="line"></div>
+        <h2 class="sub-title">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eveniet alias, praesentium<br>
+          adipisicing elit. Eveniet alias adipisicing elit. Eveniet alias  Eveniet alias, 
+        </h2>
+        <textarea class="input-group">
+          <input type="text" class="top-text" placeholder="NAME">
+          <input type="text" class="top-text" placeholder="EMAIL">
+          <input type="text" class="top-text" placeholder="SUBJECT">
+          <input type="text" class="bottom-text" placeholder="MESSAGE">
+        </textarea>
+      </div>
+    </div>
+  </section>
   <!-- 푸터 영역 -->
+  <!-- 스크롤 이벤트 (SCROLL TO TOP) -->
+<div id="to-top">
+  <a href="#">
+    <span class="material-icons">arrow_upward</span>
+  </a>
+</div>
 </body>
 </html>
