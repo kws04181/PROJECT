@@ -499,40 +499,17 @@ section {
   width: 688px;
   height: 688px;
   left: -35px;
-  animation: slide-left-con5 1s ease-out;
-}
-
-@keyframes slide-left-con5 {
-  from {
-    left: -500px;
-    opacity: 0;
-  }
-  to {
-    left: -35;
-    opacity: 1;
-  }
 }
 
 .con-5 .con-5-text {
   position: absolute;
   width: 400px;
   height: 377px;
-  z-index: 2;
+  z-index: 2222;
   right: 152px;
   top: 224px;
-  animation: slide-right-con5 1s ease-out;
 }
 
-@keyframes slide-right-con5 {
-  from {
-    right: -400px;
-    opacity: 0;
-  }
-  to {
-    right: 152px;
-    opacity: 1;
-  }
-}
 
 
 .con-5-text .c-sub-title {

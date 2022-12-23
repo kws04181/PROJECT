@@ -17,6 +17,10 @@
   <!-- CSS파일  -->
   <link rel="stylesheet" href="/css/main.css">
 
+  <!-- AOS 라이브러리 불러오기-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
   <script defer src="./js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
@@ -115,11 +119,10 @@
       <h2 class="sub-title">
         다양한 패션 취향만큼,쇼핑의 니즈도 제각각이죠.<br>
         모두의 쇼핑 니즈를 채워 줄 다섯 가지 쇼핑 공간을 헌데 모았습니다.<br>
-        백화점, 아울렛, 브랜드 직영몰, 소호&스트릿, 디자이너관까지
-      </h2>
-      <h2 class="sub-title">
+        백화점, 아울렛, 브랜드 직영몰, 소호&스트릿, 디자이너관까지<br>
         내 취향과 니즈는 단순하지 않지만 패션은 패션타운 하나로 끝.
       </h2>
+
     </div>
     <div class="btn">
       <button type="button">
@@ -276,7 +279,12 @@
         <li class="li-hover"><a href="#">Wep design</a><div class="s-circle"></div></li>
         <li class="li-hover"><a href="#">Branding</a><div class="s-circle"></div></li>
     </ul>
-    <div class="con-4-image-area">
+    <div 
+        class="con-4-image-area"
+        data-aos="zoom-in"
+        data-aos-offset="0" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="500">
       <div class="con-4-items">
         <div class="item item1"></div>
         <div class="item item2"></div>
@@ -298,8 +306,16 @@
   </div>
   <section class="con-5">
     <div class="inner">
-      <img src="./img/Untitled-2.png" alt="">
-      <div class="con-5-text">
+      <img src="./img/Untitled-2.png" alt=""
+          data-aos="fade-right"
+          data-aos-offset="200" 
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="500">
+      <div class="con-5-text"
+          data-aos="fade-left"
+          data-aos-offset="200" 
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
         <h2 class="c-sub-title">Sit amet consectetur</h2>
         <h1 class="c-title">THIS IS A CALLL TO ACTION</h1>
         <div class="line"></div>
@@ -373,7 +389,7 @@
           </span>
         </div>
         <div class="swiper-slide con-6-text">
-                    <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
+          <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
           <h2 class="bg-sub-title">FINISHED PROJECTS</h2>
           <h2 class="bg-sub-title">
             <span style="color: #868686;">
@@ -387,7 +403,7 @@
           </span>
         </div>
         <div class="swiper-slide con-6-text">
-                    <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
+          <h1 class="bg-main-title">THIS IS A CALLL TO ACTION</h1>
           <h2 class="bg-sub-title">FINISHED PROJECTS</h2>
           <h2 class="bg-sub-title">
             <span style="color: #868686;">
@@ -406,6 +422,22 @@
       <div class="swiper-button-next"></div>
     </div>
   </section>
+          <!-- data-aos-* 속성을 태그에다가 써주면 알아서 동작되게 된다 -->
+        
+        <!-- 다양한 속성들이 존재한다. (설명은 후술) -->
+        <div 
+        data-aos="fade-up" 
+        data-aos-offset="200" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" 
+        >
+        <!-- 내용 ... -->
+        </div>
+        
+        <!-- AOS 스크립트 시작 -->
+        <script> 
+            AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+        </script>
   <!-- 푸터 영역 -->
 </body>
 </html>
