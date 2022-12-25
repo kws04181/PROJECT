@@ -21,7 +21,6 @@ a {
 header {
   width: 100%;
   height: 80px;
-  cursor: pointer;
 }
 
 .h-section {
@@ -34,6 +33,9 @@ header {
 
 .header-menu .menu {
   display: flex;
+  height: 80px;
+  align-items: center;
+  cursor: pointer;
 }
 
 .header-menu .menu li {
@@ -48,6 +50,7 @@ header {
 
 .utility .menu {
   display: flex;
+  cursor: pointer;
 }
 
 .utility .menu li {
@@ -250,6 +253,8 @@ section {
   width: 1200px;
   height: 550px;
   display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .page-1-left {
@@ -293,6 +298,35 @@ section {
 .page-1-right {
   flex: 1;
 }
+
+.page img {
+  width: 100%;
+}
+
+.page iframe {
+  position: absolute;
+  height: 100%;
+}
+
+.ytp-impression-link {
+  display: none;
+}
+
+.page1 .cover{
+  width: 100%;
+  height: 100%;
+  opacity: 30%;
+  background: black;
+  position: absolute;
+  transition: .5s;
+} 
+
+.page2 {
+  background: rgb(255, 178, 150);
+} 
+.page3 {
+  background: rgb(255, 217, 203);
+} 
 
 .con-3 {
   margin: 0 auto;
@@ -343,7 +377,6 @@ section {
 }
 
 .con-4-text {
-  height: 75px;
   display: flex;
   font-size: 20px;
   font-weight: 400;
@@ -356,13 +389,10 @@ section {
 
 .con-4-text a:hover {
   color: #32323B;
-  font-weight: 500;
+  
 }
 
 .li-hover {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
   transition: 0.3s;
 }
 
@@ -371,12 +401,14 @@ section {
 }
 
 .s-circle {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   background: #FCB33B;
-  margin: 0 auto;
+  text-align: center;
   display: none;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .con-4-image-area {
@@ -769,4 +801,10 @@ footer {
     right: -30px;
     opacity: 1;
   }
+}
+
+.swiper-pagination span {
+  width: 12px;
+  height: 12px;
+  background: #FCB33B;
 }
