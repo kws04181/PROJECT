@@ -3,7 +3,10 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  loopAdditionalSlides : 1,
 
+  touchRatio: 0,//드래그 금지
+  
   autoplay: {
     delay: 3000,
   },
@@ -22,6 +25,29 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
+});
+
+const swiperEl = new Swiper('.swiper-t', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  loopAdditionalSlides : 1,
+
+  //드래그 금지
+  // touchRatio: 0,
+
+  slidesPerView: 5,  
+  spaceBetween: 15,    // 슬라이드 사이 여백
+  
+  autoplay: {
+    delay: 2500,
+  },
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable : true,
+  },
 });
 
 //  AOS 스크립트 시작
@@ -75,12 +101,13 @@ new numberCounter("counter3", 4738, 15);
 new numberCounter("counter2", 5752, 15);
 new numberCounter("counter1", 4672, 15);
 
+
+
 let totopEl = document.querySelector("#to-top")
 
 window.addEventListener('scroll',function () {
   let value = window.scrollY;
   // console.log('scrollY', value)
-   
   if (value>380) {
     totopEl.style.animation= 'disappear 1s ease-out'
     totopEl.style.diplay='block';
