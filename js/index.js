@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper', {
   touchRatio: 0,//드래그 금지
   
   autoplay: {
-    delay: 3000,
+    delay: 4000,
   },
 
   pagination: {
