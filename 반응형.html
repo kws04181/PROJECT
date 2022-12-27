@@ -16,14 +16,19 @@
   <link rel="stylesheet" href="/css/반응형.css">
   <!-- Fullpage CSS -->
   <link rel="stylesheet" href="/css/jquery.fullpage.css">
+  <!-- AOS 라이브러리 불러오기-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
 
+
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
   <!-- 제이쿼리 코어 -->
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <!-- 풀페이지 -->
   <script src="/js/fullpage.js"></script>
   <script src="/js/jquery.fullpage.js"></script>
   <!-- 스와이퍼 슬라이드 -->
-  <script defer src="./js/index.js"></script>
+  <script defer src="/js/index copy.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 </head>
@@ -55,20 +60,37 @@
   </header>
   <div id="fullpage">
     <div class="section con-1">
-      <!-- Slider main container -->
+      <div class="animated-title">
+        <div class="track">
+          <div class="content">
+            &nbsp;SEONG DESIGN TEMPLATE GALD&nbsp;seong design template glad&nbsp;SEONG DESIGN TEMPLATE GALD&nbsp;SEONG design template glad&nbsp;SEONG DESIGN TEMPLATE GALD&nbsp;SEONG design template glad
+          </div>
+        </div>
+      </div>
+      <div class="scroll">
+        스크롤 자리
+      </div>
+      <div class="swiper-slide slide-con1">
+        <div class="slide-inner">
+          <div class="slide-bg">
+          </div>
+          <div class="slide-txt">
+            <p class="txt-sub-title">Winter items Season Off</p>
+            <p class="txt-title">30%</p>
+            <button type="button" class="btn">
+              SHOP NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section con-2">
       <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide slide-con1">
-            <div class="slide-inner">
-              <div class="slide-bg">
 
-              </div>
-              <div class="slide-txt">
-                
-              </div>
-            </div>
           </div>
           <div class="swiper-slide slide-con2">
 
@@ -80,9 +102,6 @@
       <div class="swiper-pagination"></div>
       </div>
     </div>
-    <div class="section con-2">
-      
-    </div>
     <div class="section con-3">
       
     </div>
@@ -90,5 +109,6 @@
       
     </div>
   </div>
+
 </body>
 </html>
