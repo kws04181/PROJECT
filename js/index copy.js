@@ -27,8 +27,7 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-//  AOS 스크립트 시작
-AOS.init();
+
 
 
 

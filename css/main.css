@@ -42,7 +42,7 @@ header {
 }
 
 .header-menu .menu > li {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #434242;
   display: flex;
@@ -93,7 +93,7 @@ header {
 }
 
 .utility .menu li {
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: bold;
   color: #727171;
 }
@@ -200,13 +200,13 @@ section {
 .title {
   font-weight: bold;
   line-height: 44px;
-  font-size: 32px;
+  font-size: 2rem;
   color: #32323B;
 }
 
 .sub-title {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 22px;
   color: #32323B;
   margin-top: 15px;
@@ -246,7 +246,7 @@ section {
 
 .btn-text {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 0.8rem;
 }
 
 .btn span {
@@ -298,7 +298,6 @@ section {
 
 .page-1-left {
   flex: 1;
-  background: #14213D;
   display: flex;
   flex-flow: column;
   width: 365px;
@@ -360,13 +359,6 @@ section {
   transition: .5s;
 } 
 
-.page2 {
-  background: rgb(255, 178, 150);
-} 
-.page3 {
-  background: rgb(255, 217, 203);
-} 
-
 .con-3 {
   margin: 0 auto;
   max-width: 1200px;
@@ -387,7 +379,7 @@ section {
 
 .c-title {
   color: #32323B;
-  font-size: 28px;
+  font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
 }
@@ -401,7 +393,7 @@ section {
 
 .c-sub-title {
   color: #868686;
-  font-size: 18px;
+  font-size: 1rem;
   text-align: center;
   font-weight: 400;
 }
@@ -417,13 +409,13 @@ section {
 
 .con-4-text {
   display: flex;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
   justify-content: space-between;
 }
 
 .con-4-text .li-hover:first-child {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .con-4-text a:hover {
@@ -517,7 +509,7 @@ section {
 }
 
 .item6 span {
-  font-size: 100px;
+  font-size: 7rem;
   color: #32323B;
   transition: 0.5s;
   background: transparent;
@@ -545,7 +537,7 @@ section {
   cursor: pointer;
   color: #fff;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 0.8rem;
 }
 
 .con-5 {
@@ -604,7 +596,7 @@ section {
 
 .con-5-ul {
   text-align: left;
-  font-size: 16px;
+  font-size: 0.8rem;
   color: #868686;
   margin-top: 45px;
 }
@@ -614,7 +606,7 @@ section {
 }
 
 .con-5-ul li>span {
-  font-size: 12px;
+  font-size: 0.8rem;
   color: #2d2d2d;
   margin-right: 5px;
 }
@@ -651,19 +643,19 @@ section {
 
 .bg-sub-title {
   color: #cecece;
-  font-size: 16px;
+  font-size: 0.8rem;
   text-align: center;
 }
 
 .bg-main-title {
-  font-size: 32px;
+  font-size: 2rem;
   color: #fff;
   font-weight: bold;
   text-align: center;
 }
 
 .bg-item span {
-  font-size: 80px;
+  font-size: 5rem;
   color: #FCB33B;;
 }
 
@@ -700,7 +692,7 @@ section {
 }
 
 .con-6-text .material-icons {
-  font-size: 50px;
+  font-size: 4rem;
   margin-top: 20px;
 }
 
@@ -731,14 +723,14 @@ section {
 }
 
 .con-7-text .main-title {
-  font-size: 28px;
+  font-size: 2rem;
   color: #32323B;
   font-weight: bold;
   text-align: center;
 }
 
 .con-7-text .sub-title {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: #868686;
   text-align: center;
   margin-bottom: 42px;
@@ -759,7 +751,7 @@ section {
   border-radius: 15px;
   border: 2px solid #E2E2E2;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 1rem;
   justify-content: space-between;
   background: #F8F8F8;
   display: flex;
@@ -773,7 +765,7 @@ section {
   width: 1200px;
   height: 190px;
   border-radius: 15px;
-  font-size: 22px;
+  font-size: 1rem;
   border: 2px solid #E2E2E2;
   resize: none;
   padding: 30px;
@@ -818,7 +810,7 @@ footer .inner {
 }
 
 .footer-left > h1 {
-  font-size: 32px;
+  font-size: 2rem;
   color: #fff;
   font-weight: bold;
   text-align: left;
@@ -827,7 +819,7 @@ footer .inner {
 
 .footer-left > p {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 22px;
   color: #8f8f8f;
 }
@@ -856,7 +848,7 @@ footer .inner {
   padding: 0;
   border: none;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 1rem;
   color: #fff;
   cursor: pointer;
 }
@@ -970,3 +962,177 @@ footer .inner {
 }
 
 
+/* 타이틀  */
+.animated-title {
+  font-size:2rem; 
+  position: absolute; 
+  width: 100%;
+  max-width:100%; 
+  height: auto; 
+  padding:100px 0; 
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  font-weight: bold;
+  position: absolute;
+  color: #32323B; 
+  bottom: -120px;
+}
+.animated-title .track {
+  position: absolute; 
+  /* bottom: 20px; */
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 60s linear infinite; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (hover: hover) and (min-width: 700px){
+.animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
+
+
+
+@media screen and (max-width:768px){
+
+  section {
+    height: 400px;
+  }
+
+  header {
+    width: 90%;
+  }
+
+  .animated-title {
+    display: none;
+  }
+  .logo-area > svg {
+    width: 88px;
+    height: 30px;
+  }
+  
+  .header-menu .menu {
+    display: none;
+  }
+  .header-menu .menu li {
+    font-size: 1rem;
+  }
+
+  .con-1 .con-1-text .title {
+    font-size: 1.5rem;
+    line-height: 30px;
+
+  }
+
+  .con-1 .con-1-text .sub-title {
+    font-size: 0.8rem;
+    line-height: 18px;
+  }
+
+  .btn button {
+    top: 220px;
+  }
+
+  .con-1-img img {
+    width: 55%;
+    height: 70%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .con-text {
+    padding-top: 50px;
+  }
+
+  .c-title {
+    font-size: 1.5rem;
+  }
+
+  .c-sub-title {
+    font-size: 0.8rem;
+  }
+
+  .line {
+    width: 268px;
+  }
+
+  .con-4 {
+    height: 750px;
+  }
+
+  .con-4-text {
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .con-4-text .li-hover:first-child {
+    font-size: 0.8rem;
+  }
+  
+  .con-4-items {
+    gap: 10px;
+  }
+
+  .con-4-image-area {
+    height: 650px;
+  }
+
+  .con-4-items .item {
+    width: 300px;
+    height: 300px;
+  }
+
+  .con-5 {
+    height: 520px;
+  }
+
+  .con-5-bg {
+    height: 520px;
+  }
+
+  .con-5 .inner img {
+    position: absolute;
+    z-index: 1;
+    width: 410px;
+    height: 393px;
+    left: -68px;
+    top: -27px;
+  }
+
+  .con-5 .con-5-text {
+    right: 34px;
+    top: 55px;
+  }
+
+  .con-5-text .c-title {
+    font-size: 1.2rem;
+  }
+
+  .con-5-text .c-sub-title {
+    font-size: 0.8rem;
+  }
+
+  .bg-main-title {
+    font-size: 1.5rem;
+  }
+
+  .bg-item span {
+    font-size: 4rem;
+  }
+
+  .con-7 {
+    padding: 0;
+  }
+
+  .con-7-text {
+    gap: 10px;
+  }
+
+  .con-7-text .main-title {
+    font-size: 1.5rem;
+  }
+}
